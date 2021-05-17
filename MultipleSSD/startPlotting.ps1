@@ -20,7 +20,7 @@
 param (
     [Parameter(Mandatory=$true)][string]$tempPath,
     [Parameter(Mandatory=$true)][string]$destinationPath,
-	[int]$delayMin = 0
+	[Parameter(Mandatory=$true)][int]$delayMin
 )
 
 # Update Based on your System
